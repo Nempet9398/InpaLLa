@@ -1,0 +1,11 @@
+version: "/workspace/model/LISA-13B-llama2-v1"
+model_cache_dir: "/workspace/model/LISA-13B-llama2-v1"
+model_max_length: 512
+precision: "fp16"
+load_in_4bit: False
+load_in_8bit: False
+vision_tower: "/workspace/model/clip-vit-large-patch14"
+tower_cache_dir: "/workspace/model/clip-vit-large-patch14" 
+seg_token_idx:
+prompt: 
+image_path: 

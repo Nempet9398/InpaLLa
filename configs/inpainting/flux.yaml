@@ -1,0 +1,5 @@
+model: "/workspace/model/FLUX.1-Fill-dev"
+cache_dir: "/workspace/model/FLUX.1-Fill-dev"
+parameter:
+    guidance_scale : 
+    num_inference_steps : 

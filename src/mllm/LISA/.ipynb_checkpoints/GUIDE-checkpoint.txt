@@ -1,0 +1,13 @@
+apt update
+apt install python3.9 python3.9-venv
+
+
+
+
+export TRANSFORMERS_CACHE=/workspace/model
+
+source /workspace/envs/llava/bin/activate
+
+CUDA_VISIBLE_DEVICES=0 python chat.py --version='xinlai/LISA-13B-llama2-v1'
+
+CUDA_VISIBLE_DEVICES=0 python chat.py --version='xinlai/LISA-13B-llama2-v1-explanatory'

@@ -1,0 +1,4 @@
+model: "/workspace/model/Llama-3.2-11B-Vision-Instruct"
+cache_dir: "/workspace/model/Llama-3.2-11B-Vision-Instruct"
+model_kwargs:
+    max_new_tokens: 512

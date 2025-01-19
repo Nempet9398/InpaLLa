@@ -1,0 +1,9 @@
+seed : 42
+device : 'cuda'
+save_path: '/workspace/InpaLLa/results'
+
+defaults:
+    - _self_
+    - inpainting: flux
+    - mllm: lisa
+    - llm: llama_vision

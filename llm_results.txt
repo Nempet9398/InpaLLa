@@ -1,0 +1,10 @@
+Output Text:
+Prompt1: If the cat character in this image is changed to a dog, the image would feature a dog sitting on a light-colored wooden floor, gazing upwards with its mouth slightly ajar. The dog's fur would be depicted in shades of brown and white, with a long tail extending behind it. The image would likely be taken from a low angle, looking up at the dog, which would create a sense of intimacy and playfulness.
+
+Prompt2: [Body part]
+
+Inpainting Prompt:
+the image would feature a dog sitting on a light-colored wooden floor, gazing upwards with its mouth slightly ajar. The dog's fur would be depicted in shades of brown and white, with a long tail extending behind it. The image would likely be taken from a low angle, looking up at the dog, which would create a sense of intimacy and playfulness.
+
+Segmentation Prompt:
+Segment Body part
