@@ -14,12 +14,14 @@
 
 ## 업데이트
 - **2024.04.27**: 초기 버전 릴리즈
+- **2024.05.10**: FLUX, LISA, VLLM 모델 통합
+- **2024.06.15**: 포스터 및 발표자료 업로드 기능 추가
 
 ## 주요 기능
 - **직관적인 UI**: Gradio 기반의 간단하고 깔끔한 인터페이스
 - **자동 사용자 관리**: 고유한 사용자 ID 생성으로 데이터 보안 강화
 - **이미지 최적화**: 업로드된 이미지를 자동으로 최대 1024x1024 픽셀로 조정
-- **고품질 인페인팅**: LLM, 세그멘테이션, 인페인팅 API를 연계하여 뛰어난 결과물 제공
+- **고품질 인페인팅**: FLUX, LISA, VLLM 모델을 연계하여 뛰어난 결과물 제공
 - **파라미터 조정**: 디노이징 강도, 추론 단계 수, 가이드 스케일 등 사용자 맞춤 설정 가능
 - **결과 시각화**: 인페인팅된 이미지와 마스크 이미지를 함께 확인
 
@@ -55,6 +57,27 @@
   - **`{user_id}_image.jpg`**: 업로드된 원본 이미지
   - **`inpainted_image.jpg`**: 인페인팅된 최종 이미지
   - **`masked_img.jpg`**: 생성된 세그멘테이션 마스크 이미지
+
+## 결과
+![결과 이미지1](https://github.com/your-repo/result-image1-url)
+![결과 이미지2](https://github.com/your-repo/result-image2-url)
+<br/>
+(Loss : BCELogitLoss / Evaluation Score : mAP)
+
+## 레퍼런스
+- FLUX: [FLUX 모델 설명](https://flux-model-link.com)
+- LISA: [LISA 모델 설명](https://lisa-model-link.com)
+- VLLM: [VLLM 모델 설명](https://vllm-model-link.com)
+- TAN, Mingxing; LE, Quoc. Efficientnet: Rethinking model scaling for convolutional neural networks. In: International conference on machine learning. PMLR, 2019.
+- Lin, Tsung-Yi, et al. "Focal loss for dense object detection." Proceedings of the IEEE international conference on computer vision. 2017.
+- Foret, Pierre, et al. "Sharpness-aware minimization for efficiently improving generalization." arXiv preprint arXiv:2010.01412 (2020).
+- Zhang, Hongyi, et al. "mixup: Beyond empirical risk minimization." arXiv preprint arXiv:1710.09412 (2017).
+
+## 포스터 및 발표자료
+포스터와 발표자료는 아래 링크에서 다운로드할 수 있습니다:
+
+- [포스터 다운로드](https://github.com/your-repo/poster.pdf)
+- [발표자료 다운로드](https://github.com/your-repo/presentation.pdf)
 
 ## 기여 방법
 InpaLLa는 오픈 소스 프로젝트로, 여러분의 많은 기여를 환영합니다! 버그 리포트, 기능 제안, 코드 기여 등 다양한 방법으로 참여해 주세요.
